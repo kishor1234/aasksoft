@@ -1,0 +1,20 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_REFERER} !^http://aasksoft.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://aasksoft.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://map.aasksoft.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://map.aasksoft.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.aasksoft.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.aasksoft.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.map.aasksoft.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.map.aasksoft.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://aasksoft.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://aasksoft.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://map.aasksoft.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://map.aasksoft.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.aasksoft.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.aasksoft.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.map.aasksoft.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.map.aasksoft.com$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
+

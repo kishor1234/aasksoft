@@ -1,0 +1,13 @@
+[01-Sep-2016 08:03:28 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home/aasksoft/public_html/map/admin/index.php on line 76
+[05-Sep-2016 06:10:13 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/aasksoft/public_html/map/admin/index.php on line 53
+[05-Sep-2016 06:10:13 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/aasksoft/public_html/map/admin/index.php on line 53
+[05-Sep-2016 06:10:13 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/aasksoft/public_html/map/admin/index.php on line 76
+[05-Sep-2016 06:10:21 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/aasksoft/public_html/map/admin/index.php on line 53
+[05-Sep-2016 06:10:21 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/aasksoft/public_html/map/admin/index.php on line 53
+[05-Sep-2016 06:10:21 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/aasksoft/public_html/map/admin/index.php on line 76
+[05-Sep-2016 16:59:16 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home/aasksoft/public_html/map/admin/index.php on line 76
+[05-Sep-2016 16:59:30 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home/aasksoft/public_html/map/admin/index.php on line 76
+[05-Sep-2016 16:59:34 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home/aasksoft/public_html/map/admin/index.php on line 76
+[05-Sep-2016 17:01:35 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home/aasksoft/public_html/map/admin/index.php on line 76
+[05-Sep-2016 17:01:43 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home/aasksoft/public_html/map/admin/index.php on line 76
+[05-Sep-2016 17:01:50 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home/aasksoft/public_html/map/admin/index.php on line 76

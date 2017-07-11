@@ -1,0 +1,30 @@
+[29-Aug-2016 09:01:48 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/aasksoft/public_html/send.php on line 31
+[29-Aug-2016 09:01:48 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/aasksoft/public_html/send.php on line 52
+[30-Aug-2016 10:00:08 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/aasksoft/public_html/send.php on line 31
+[30-Aug-2016 10:00:09 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/aasksoft/public_html/send.php on line 52
+[30-Aug-2016 10:03:58 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/aasksoft/public_html/send.php on line 31
+[30-Aug-2016 10:03:58 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/aasksoft/public_html/send.php on line 52
+[12-Sep-2016 14:20:23 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/aasksoft/public_html/send.php on line 31
+[12-Sep-2016 14:20:23 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/aasksoft/public_html/send.php on line 52
+[24-Sep-2016 02:03:48 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/aasksoft/public_html/send.php on line 31
+[24-Sep-2016 02:03:48 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/aasksoft/public_html/send.php on line 52
+[15-Nov-2016 11:12:05 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/aasksoft/public_html/send.php on line 31
+[15-Nov-2016 11:12:05 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/aasksoft/public_html/send.php on line 52
+[10-Dec-2016 20:31:12 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[10-Dec-2016 20:31:12 UTC] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[10-Dec-2016 20:31:18 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[10-Dec-2016 20:31:18 UTC] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[10-Dec-2016 20:31:22 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[10-Dec-2016 20:31:22 UTC] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[10-Dec-2016 22:05:25 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[10-Dec-2016 22:05:25 UTC] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[10-Dec-2016 22:18:52 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[10-Dec-2016 22:18:52 UTC] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[11-Dec-2016 00:53:41 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[11-Dec-2016 00:53:41 UTC] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[11-Dec-2016 01:13:14 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[11-Dec-2016 01:13:14 UTC] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[11-Dec-2016 01:19:09 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[11-Dec-2016 01:19:09 UTC] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[11-Dec-2016 01:45:03 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[11-Dec-2016 01:45:03 UTC] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0

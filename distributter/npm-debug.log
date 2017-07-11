@@ -1,0 +1,472 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.4
+4 verbose readDependencies loading dependencies from C:\xampp\htdocs\RetailStore\package.json
+5 warn package.json admin-lte@2.3.0 No description
+6 warn package.json admin-lte@2.3.0 No README data
+7 verbose install where, deps [ 'C:\\xampp\\htdocs\\RetailStore',
+7 verbose install   [ 'R2',
+7 verbose install     'grunt',
+7 verbose install     'grunt-contrib-clean',
+7 verbose install     'grunt-contrib-csslint',
+7 verbose install     'grunt-contrib-cssmin',
+7 verbose install     'grunt-contrib-jshint',
+7 verbose install     'grunt-contrib-less',
+7 verbose install     'grunt-contrib-uglify',
+7 verbose install     'grunt-contrib-watch',
+7 verbose install     'grunt-cssjanus',
+7 verbose install     'grunt-image',
+7 verbose install     'grunt-includes' ] ]
+8 verbose install where, peers [ 'C:\\xampp\\htdocs\\RetailStore', [] ]
+9 verbose installManyTop reading for lifecycle C:\xampp\htdocs\RetailStore\package.json
+10 info preinstall admin-lte@2.3.0
+11 verbose readDependencies loading dependencies from C:\xampp\htdocs\RetailStore\package.json
+12 silly cache add args [ 'grunt-contrib-clean@^0.6.0', null ]
+13 verbose cache add spec grunt-contrib-clean@^0.6.0
+14 silly cache add parsed spec Result {
+14 silly cache add   raw: 'grunt-contrib-clean@^0.6.0',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'grunt-contrib-clean',
+14 silly cache add   rawSpec: '^0.6.0',
+14 silly cache add   spec: '>=0.6.0 <0.7.0',
+14 silly cache add   type: 'range' }
+15 silly addNamed grunt-contrib-clean@>=0.6.0 <0.7.0
+16 verbose addNamed ">=0.6.0 <0.7.0" is a valid semver range for grunt-contrib-clean
+17 silly addNameRange { name: 'grunt-contrib-clean',
+17 silly addNameRange   range: '>=0.6.0 <0.7.0',
+17 silly addNameRange   hasData: false }
+18 silly mapToRegistry name grunt-contrib-clean
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry data Result {
+21 silly mapToRegistry   raw: 'grunt-contrib-clean',
+21 silly mapToRegistry   scope: null,
+21 silly mapToRegistry   name: 'grunt-contrib-clean',
+21 silly mapToRegistry   rawSpec: '',
+21 silly mapToRegistry   spec: 'latest',
+21 silly mapToRegistry   type: 'tag' }
+22 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-clean
+23 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-clean not in flight; fetching
+24 silly cache add args [ 'grunt-contrib-csslint@^0.5.0', null ]
+25 verbose cache add spec grunt-contrib-csslint@^0.5.0
+26 silly cache add parsed spec Result {
+26 silly cache add   raw: 'grunt-contrib-csslint@^0.5.0',
+26 silly cache add   scope: null,
+26 silly cache add   name: 'grunt-contrib-csslint',
+26 silly cache add   rawSpec: '^0.5.0',
+26 silly cache add   spec: '>=0.5.0 <0.6.0',
+26 silly cache add   type: 'range' }
+27 silly addNamed grunt-contrib-csslint@>=0.5.0 <0.6.0
+28 verbose addNamed ">=0.5.0 <0.6.0" is a valid semver range for grunt-contrib-csslint
+29 silly addNameRange { name: 'grunt-contrib-csslint',
+29 silly addNameRange   range: '>=0.5.0 <0.6.0',
+29 silly addNameRange   hasData: false }
+30 silly mapToRegistry name grunt-contrib-csslint
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry data Result {
+33 silly mapToRegistry   raw: 'grunt-contrib-csslint',
+33 silly mapToRegistry   scope: null,
+33 silly mapToRegistry   name: 'grunt-contrib-csslint',
+33 silly mapToRegistry   rawSpec: '',
+33 silly mapToRegistry   spec: 'latest',
+33 silly mapToRegistry   type: 'tag' }
+34 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-csslint
+35 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-csslint not in flight; fetching
+36 silly cache add args [ 'grunt-contrib-cssmin@^0.12.2', null ]
+37 verbose cache add spec grunt-contrib-cssmin@^0.12.2
+38 silly cache add parsed spec Result {
+38 silly cache add   raw: 'grunt-contrib-cssmin@^0.12.2',
+38 silly cache add   scope: null,
+38 silly cache add   name: 'grunt-contrib-cssmin',
+38 silly cache add   rawSpec: '^0.12.2',
+38 silly cache add   spec: '>=0.12.2 <0.13.0',
+38 silly cache add   type: 'range' }
+39 silly addNamed grunt-contrib-cssmin@>=0.12.2 <0.13.0
+40 verbose addNamed ">=0.12.2 <0.13.0" is a valid semver range for grunt-contrib-cssmin
+41 silly addNameRange { name: 'grunt-contrib-cssmin',
+41 silly addNameRange   range: '>=0.12.2 <0.13.0',
+41 silly addNameRange   hasData: false }
+42 silly mapToRegistry name grunt-contrib-cssmin
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry data Result {
+45 silly mapToRegistry   raw: 'grunt-contrib-cssmin',
+45 silly mapToRegistry   scope: null,
+45 silly mapToRegistry   name: 'grunt-contrib-cssmin',
+45 silly mapToRegistry   rawSpec: '',
+45 silly mapToRegistry   spec: 'latest',
+45 silly mapToRegistry   type: 'tag' }
+46 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-cssmin
+47 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-cssmin not in flight; fetching
+48 silly cache add args [ 'grunt-contrib-jshint@^0.11.2', null ]
+49 verbose cache add spec grunt-contrib-jshint@^0.11.2
+50 silly cache add parsed spec Result {
+50 silly cache add   raw: 'grunt-contrib-jshint@^0.11.2',
+50 silly cache add   scope: null,
+50 silly cache add   name: 'grunt-contrib-jshint',
+50 silly cache add   rawSpec: '^0.11.2',
+50 silly cache add   spec: '>=0.11.2 <0.12.0',
+50 silly cache add   type: 'range' }
+51 silly addNamed grunt-contrib-jshint@>=0.11.2 <0.12.0
+52 verbose addNamed ">=0.11.2 <0.12.0" is a valid semver range for grunt-contrib-jshint
+53 silly addNameRange { name: 'grunt-contrib-jshint',
+53 silly addNameRange   range: '>=0.11.2 <0.12.0',
+53 silly addNameRange   hasData: false }
+54 silly mapToRegistry name grunt-contrib-jshint
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'grunt-contrib-jshint',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   name: 'grunt-contrib-jshint',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-jshint
+59 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-jshint not in flight; fetching
+60 silly cache add args [ 'grunt-contrib-less@^0.12.0', null ]
+61 verbose cache add spec grunt-contrib-less@^0.12.0
+62 silly cache add parsed spec Result {
+62 silly cache add   raw: 'grunt-contrib-less@^0.12.0',
+62 silly cache add   scope: null,
+62 silly cache add   name: 'grunt-contrib-less',
+62 silly cache add   rawSpec: '^0.12.0',
+62 silly cache add   spec: '>=0.12.0 <0.13.0',
+62 silly cache add   type: 'range' }
+63 silly addNamed grunt-contrib-less@>=0.12.0 <0.13.0
+64 verbose addNamed ">=0.12.0 <0.13.0" is a valid semver range for grunt-contrib-less
+65 silly addNameRange { name: 'grunt-contrib-less',
+65 silly addNameRange   range: '>=0.12.0 <0.13.0',
+65 silly addNameRange   hasData: false }
+66 silly mapToRegistry name grunt-contrib-less
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npmjs.org/
+69 silly mapToRegistry data Result {
+69 silly mapToRegistry   raw: 'grunt-contrib-less',
+69 silly mapToRegistry   scope: null,
+69 silly mapToRegistry   name: 'grunt-contrib-less',
+69 silly mapToRegistry   rawSpec: '',
+69 silly mapToRegistry   spec: 'latest',
+69 silly mapToRegistry   type: 'tag' }
+70 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-less
+71 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-less not in flight; fetching
+72 silly cache add args [ 'grunt-contrib-uglify@^0.7.0', null ]
+73 verbose cache add spec grunt-contrib-uglify@^0.7.0
+74 silly cache add parsed spec Result {
+74 silly cache add   raw: 'grunt-contrib-uglify@^0.7.0',
+74 silly cache add   scope: null,
+74 silly cache add   name: 'grunt-contrib-uglify',
+74 silly cache add   rawSpec: '^0.7.0',
+74 silly cache add   spec: '>=0.7.0 <0.8.0',
+74 silly cache add   type: 'range' }
+75 silly addNamed grunt-contrib-uglify@>=0.7.0 <0.8.0
+76 verbose addNamed ">=0.7.0 <0.8.0" is a valid semver range for grunt-contrib-uglify
+77 silly addNameRange { name: 'grunt-contrib-uglify',
+77 silly addNameRange   range: '>=0.7.0 <0.8.0',
+77 silly addNameRange   hasData: false }
+78 silly mapToRegistry name grunt-contrib-uglify
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry data Result {
+81 silly mapToRegistry   raw: 'grunt-contrib-uglify',
+81 silly mapToRegistry   scope: null,
+81 silly mapToRegistry   name: 'grunt-contrib-uglify',
+81 silly mapToRegistry   rawSpec: '',
+81 silly mapToRegistry   spec: 'latest',
+81 silly mapToRegistry   type: 'tag' }
+82 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-uglify
+83 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-uglify not in flight; fetching
+84 silly cache add args [ 'grunt-contrib-watch@~0.6.1', null ]
+85 verbose cache add spec grunt-contrib-watch@~0.6.1
+86 silly cache add parsed spec Result {
+86 silly cache add   raw: 'grunt-contrib-watch@~0.6.1',
+86 silly cache add   scope: null,
+86 silly cache add   name: 'grunt-contrib-watch',
+86 silly cache add   rawSpec: '~0.6.1',
+86 silly cache add   spec: '>=0.6.1 <0.7.0',
+86 silly cache add   type: 'range' }
+87 silly addNamed grunt-contrib-watch@>=0.6.1 <0.7.0
+88 verbose addNamed ">=0.6.1 <0.7.0" is a valid semver range for grunt-contrib-watch
+89 silly addNameRange { name: 'grunt-contrib-watch',
+89 silly addNameRange   range: '>=0.6.1 <0.7.0',
+89 silly addNameRange   hasData: false }
+90 silly mapToRegistry name grunt-contrib-watch
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry data Result {
+93 silly mapToRegistry   raw: 'grunt-contrib-watch',
+93 silly mapToRegistry   scope: null,
+93 silly mapToRegistry   name: 'grunt-contrib-watch',
+93 silly mapToRegistry   rawSpec: '',
+93 silly mapToRegistry   spec: 'latest',
+93 silly mapToRegistry   type: 'tag' }
+94 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-watch
+95 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-watch not in flight; fetching
+96 silly cache add args [ 'grunt-cssjanus@^0.2.4', null ]
+97 verbose cache add spec grunt-cssjanus@^0.2.4
+98 silly cache add parsed spec Result {
+98 silly cache add   raw: 'grunt-cssjanus@^0.2.4',
+98 silly cache add   scope: null,
+98 silly cache add   name: 'grunt-cssjanus',
+98 silly cache add   rawSpec: '^0.2.4',
+98 silly cache add   spec: '>=0.2.4 <0.3.0',
+98 silly cache add   type: 'range' }
+99 silly addNamed grunt-cssjanus@>=0.2.4 <0.3.0
+100 verbose addNamed ">=0.2.4 <0.3.0" is a valid semver range for grunt-cssjanus
+101 silly addNameRange { name: 'grunt-cssjanus',
+101 silly addNameRange   range: '>=0.2.4 <0.3.0',
+101 silly addNameRange   hasData: false }
+102 silly mapToRegistry name grunt-cssjanus
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry https://registry.npmjs.org/
+105 silly mapToRegistry data Result {
+105 silly mapToRegistry   raw: 'grunt-cssjanus',
+105 silly mapToRegistry   scope: null,
+105 silly mapToRegistry   name: 'grunt-cssjanus',
+105 silly mapToRegistry   rawSpec: '',
+105 silly mapToRegistry   spec: 'latest',
+105 silly mapToRegistry   type: 'tag' }
+106 silly mapToRegistry uri https://registry.npmjs.org/grunt-cssjanus
+107 verbose addNameRange registry:https://registry.npmjs.org/grunt-cssjanus not in flight; fetching
+108 silly cache add args [ 'grunt-image@^1.0.5', null ]
+109 verbose cache add spec grunt-image@^1.0.5
+110 silly cache add parsed spec Result {
+110 silly cache add   raw: 'grunt-image@^1.0.5',
+110 silly cache add   scope: null,
+110 silly cache add   name: 'grunt-image',
+110 silly cache add   rawSpec: '^1.0.5',
+110 silly cache add   spec: '>=1.0.5 <2.0.0',
+110 silly cache add   type: 'range' }
+111 silly addNamed grunt-image@>=1.0.5 <2.0.0
+112 verbose addNamed ">=1.0.5 <2.0.0" is a valid semver range for grunt-image
+113 silly addNameRange { name: 'grunt-image', range: '>=1.0.5 <2.0.0', hasData: false }
+114 silly mapToRegistry name grunt-image
+115 silly mapToRegistry using default registry
+116 silly mapToRegistry registry https://registry.npmjs.org/
+117 silly mapToRegistry data Result {
+117 silly mapToRegistry   raw: 'grunt-image',
+117 silly mapToRegistry   scope: null,
+117 silly mapToRegistry   name: 'grunt-image',
+117 silly mapToRegistry   rawSpec: '',
+117 silly mapToRegistry   spec: 'latest',
+117 silly mapToRegistry   type: 'tag' }
+118 silly mapToRegistry uri https://registry.npmjs.org/grunt-image
+119 verbose addNameRange registry:https://registry.npmjs.org/grunt-image not in flight; fetching
+120 silly cache add args [ 'grunt-includes@^0.4.5', null ]
+121 verbose cache add spec grunt-includes@^0.4.5
+122 silly cache add parsed spec Result {
+122 silly cache add   raw: 'grunt-includes@^0.4.5',
+122 silly cache add   scope: null,
+122 silly cache add   name: 'grunt-includes',
+122 silly cache add   rawSpec: '^0.4.5',
+122 silly cache add   spec: '>=0.4.5 <0.5.0',
+122 silly cache add   type: 'range' }
+123 silly addNamed grunt-includes@>=0.4.5 <0.5.0
+124 verbose addNamed ">=0.4.5 <0.5.0" is a valid semver range for grunt-includes
+125 silly addNameRange { name: 'grunt-includes',
+125 silly addNameRange   range: '>=0.4.5 <0.5.0',
+125 silly addNameRange   hasData: false }
+126 silly mapToRegistry name grunt-includes
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry https://registry.npmjs.org/
+129 silly mapToRegistry data Result {
+129 silly mapToRegistry   raw: 'grunt-includes',
+129 silly mapToRegistry   scope: null,
+129 silly mapToRegistry   name: 'grunt-includes',
+129 silly mapToRegistry   rawSpec: '',
+129 silly mapToRegistry   spec: 'latest',
+129 silly mapToRegistry   type: 'tag' }
+130 silly mapToRegistry uri https://registry.npmjs.org/grunt-includes
+131 verbose addNameRange registry:https://registry.npmjs.org/grunt-includes not in flight; fetching
+132 silly cache add args [ 'R2@^1.4.3', null ]
+133 verbose cache add spec R2@^1.4.3
+134 silly cache add parsed spec Result {
+134 silly cache add   raw: 'R2@^1.4.3',
+134 silly cache add   scope: null,
+134 silly cache add   name: 'R2',
+134 silly cache add   rawSpec: '^1.4.3',
+134 silly cache add   spec: '>=1.4.3 <2.0.0',
+134 silly cache add   type: 'range' }
+135 silly addNamed R2@>=1.4.3 <2.0.0
+136 verbose addNamed ">=1.4.3 <2.0.0" is a valid semver range for R2
+137 silly addNameRange { name: 'R2', range: '>=1.4.3 <2.0.0', hasData: false }
+138 silly mapToRegistry name R2
+139 silly mapToRegistry using default registry
+140 silly mapToRegistry registry https://registry.npmjs.org/
+141 silly mapToRegistry data Result {
+141 silly mapToRegistry   raw: 'R2',
+141 silly mapToRegistry   scope: null,
+141 silly mapToRegistry   name: 'R2',
+141 silly mapToRegistry   rawSpec: '',
+141 silly mapToRegistry   spec: 'latest',
+141 silly mapToRegistry   type: 'tag' }
+142 silly mapToRegistry uri https://registry.npmjs.org/R2
+143 verbose addNameRange registry:https://registry.npmjs.org/R2 not in flight; fetching
+144 silly cache add args [ 'grunt@~0.4.5', null ]
+145 verbose cache add spec grunt@~0.4.5
+146 silly cache add parsed spec Result {
+146 silly cache add   raw: 'grunt@~0.4.5',
+146 silly cache add   scope: null,
+146 silly cache add   name: 'grunt',
+146 silly cache add   rawSpec: '~0.4.5',
+146 silly cache add   spec: '>=0.4.5 <0.5.0',
+146 silly cache add   type: 'range' }
+147 silly addNamed grunt@>=0.4.5 <0.5.0
+148 verbose addNamed ">=0.4.5 <0.5.0" is a valid semver range for grunt
+149 silly addNameRange { name: 'grunt', range: '>=0.4.5 <0.5.0', hasData: false }
+150 silly mapToRegistry name grunt
+151 silly mapToRegistry using default registry
+152 silly mapToRegistry registry https://registry.npmjs.org/
+153 silly mapToRegistry data Result {
+153 silly mapToRegistry   raw: 'grunt',
+153 silly mapToRegistry   scope: null,
+153 silly mapToRegistry   name: 'grunt',
+153 silly mapToRegistry   rawSpec: '',
+153 silly mapToRegistry   spec: 'latest',
+153 silly mapToRegistry   type: 'tag' }
+154 silly mapToRegistry uri https://registry.npmjs.org/grunt
+155 verbose addNameRange registry:https://registry.npmjs.org/grunt not in flight; fetching
+156 verbose request uri https://registry.npmjs.org/grunt-contrib-clean
+157 verbose request no auth needed
+158 info attempt registry request try #1 at 2:59:40 PM
+159 verbose request id 8e6bf757ac424d2c
+160 http request GET https://registry.npmjs.org/grunt-contrib-clean
+161 verbose request uri https://registry.npmjs.org/grunt-contrib-csslint
+162 verbose request no auth needed
+163 info attempt registry request try #1 at 2:59:42 PM
+164 http request GET https://registry.npmjs.org/grunt-contrib-csslint
+165 verbose request uri https://registry.npmjs.org/grunt-contrib-cssmin
+166 verbose request no auth needed
+167 info attempt registry request try #1 at 2:59:42 PM
+168 http request GET https://registry.npmjs.org/grunt-contrib-cssmin
+169 verbose request uri https://registry.npmjs.org/grunt-contrib-jshint
+170 verbose request no auth needed
+171 info attempt registry request try #1 at 2:59:42 PM
+172 http request GET https://registry.npmjs.org/grunt-contrib-jshint
+173 verbose request uri https://registry.npmjs.org/grunt-contrib-less
+174 verbose request no auth needed
+175 info attempt registry request try #1 at 2:59:42 PM
+176 http request GET https://registry.npmjs.org/grunt-contrib-less
+177 verbose request uri https://registry.npmjs.org/grunt-contrib-uglify
+178 verbose request no auth needed
+179 info attempt registry request try #1 at 2:59:42 PM
+180 http request GET https://registry.npmjs.org/grunt-contrib-uglify
+181 verbose request uri https://registry.npmjs.org/grunt-contrib-watch
+182 verbose request no auth needed
+183 info attempt registry request try #1 at 2:59:42 PM
+184 http request GET https://registry.npmjs.org/grunt-contrib-watch
+185 verbose request uri https://registry.npmjs.org/grunt-cssjanus
+186 verbose request no auth needed
+187 info attempt registry request try #1 at 2:59:42 PM
+188 http request GET https://registry.npmjs.org/grunt-cssjanus
+189 verbose request uri https://registry.npmjs.org/grunt-image
+190 verbose request no auth needed
+191 info attempt registry request try #1 at 2:59:42 PM
+192 http request GET https://registry.npmjs.org/grunt-image
+193 verbose request uri https://registry.npmjs.org/grunt-includes
+194 verbose request no auth needed
+195 info attempt registry request try #1 at 2:59:42 PM
+196 http request GET https://registry.npmjs.org/grunt-includes
+197 verbose request uri https://registry.npmjs.org/R2
+198 verbose request no auth needed
+199 info attempt registry request try #1 at 2:59:42 PM
+200 http request GET https://registry.npmjs.org/R2
+201 verbose request uri https://registry.npmjs.org/grunt
+202 verbose request no auth needed
+203 info attempt registry request try #1 at 2:59:42 PM
+204 http request GET https://registry.npmjs.org/grunt
+205 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+206 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+207 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+208 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+209 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+210 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+211 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+212 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+213 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+214 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+215 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+216 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+217 info attempt registry request try #2 at 2:59:52 PM
+218 http request GET https://registry.npmjs.org/grunt-contrib-clean
+219 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+220 info attempt registry request try #2 at 2:59:52 PM
+221 http request GET https://registry.npmjs.org/grunt-contrib-csslint
+222 info attempt registry request try #2 at 2:59:52 PM
+223 http request GET https://registry.npmjs.org/grunt-contrib-cssmin
+224 info attempt registry request try #2 at 2:59:52 PM
+225 http request GET https://registry.npmjs.org/grunt-contrib-watch
+226 info attempt registry request try #2 at 2:59:52 PM
+227 http request GET https://registry.npmjs.org/grunt-contrib-uglify
+228 info attempt registry request try #2 at 2:59:52 PM
+229 http request GET https://registry.npmjs.org/grunt-contrib-less
+230 info attempt registry request try #2 at 2:59:52 PM
+231 http request GET https://registry.npmjs.org/grunt-contrib-jshint
+232 info attempt registry request try #2 at 2:59:52 PM
+233 http request GET https://registry.npmjs.org/grunt-cssjanus
+234 info attempt registry request try #2 at 2:59:52 PM
+235 http request GET https://registry.npmjs.org/grunt
+236 info attempt registry request try #2 at 2:59:52 PM
+237 http request GET https://registry.npmjs.org/grunt-image
+238 info attempt registry request try #2 at 2:59:52 PM
+239 http request GET https://registry.npmjs.org/grunt-includes
+240 info attempt registry request try #2 at 2:59:52 PM
+241 http request GET https://registry.npmjs.org/R2
+242 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+243 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+244 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+245 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+246 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+247 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+248 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+249 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+250 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+251 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+252 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+253 info attempt registry request try #3 at 3:00:52 PM
+254 http request GET https://registry.npmjs.org/grunt-contrib-clean
+255 info attempt registry request try #3 at 3:00:53 PM
+256 http request GET https://registry.npmjs.org/grunt-contrib-uglify
+257 info attempt registry request try #3 at 3:00:53 PM
+258 http request GET https://registry.npmjs.org/grunt-contrib-watch
+259 info attempt registry request try #3 at 3:00:53 PM
+260 http request GET https://registry.npmjs.org/grunt-contrib-csslint
+261 info attempt registry request try #3 at 3:00:53 PM
+262 http request GET https://registry.npmjs.org/grunt-contrib-cssmin
+263 info attempt registry request try #3 at 3:00:53 PM
+264 http request GET https://registry.npmjs.org/grunt-contrib-less
+265 info attempt registry request try #3 at 3:00:53 PM
+266 http request GET https://registry.npmjs.org/grunt-contrib-jshint
+267 info attempt registry request try #3 at 3:00:53 PM
+268 http request GET https://registry.npmjs.org/grunt-includes
+269 info attempt registry request try #3 at 3:00:53 PM
+270 http request GET https://registry.npmjs.org/grunt-image
+271 info attempt registry request try #3 at 3:00:53 PM
+272 http request GET https://registry.npmjs.org/grunt
+273 info attempt registry request try #3 at 3:00:53 PM
+274 http request GET https://registry.npmjs.org/grunt-cssjanus
+275 info attempt registry request try #3 at 3:00:53 PM
+276 http request GET https://registry.npmjs.org/R2
+277 verbose stack Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+277 verbose stack     at errnoException (dns.js:27:10)
+277 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+278 verbose cwd C:\xampp\htdocs\RetailStore
+279 error Windows_NT 5.1.2600
+280 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+281 error node v4.4.4
+282 error npm  v2.15.1
+283 error code ENOTFOUND
+284 error errno ENOTFOUND
+285 error syscall getaddrinfo
+286 error network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+286 error network This is most likely not a problem with npm itself
+286 error network and is related to network connectivity.
+286 error network In most cases you are behind a proxy or have bad network settings.
+286 error network
+286 error network If you are behind a proxy, please make sure that the
+286 error network 'proxy' config is set properly.  See: 'npm help config'
+287 verbose exit [ 1, true ]
